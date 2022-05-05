@@ -1,0 +1,109 @@
+/* 
+grid-breakpoints
+xs: 0,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px,
+xxl: 1400px
+*/
+
+body {
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-banner {
+    background: url('../img/bg-banner.webp') center top no-repeat #ffffff;
+    max-width: 1920px;
+    border-bottom-right-radius: 130px;
+    border-bottom-left-radius: 130px;
+}
+
+.bg-praqueme {
+    background: url('../img/bg-pra-quem-e.webp') right center no-repeat #c9aea7;
+    max-width: 1920px;
+    border-top-right-radius: 130px;
+    border-top-left-radius: 130px;
+}
+
+.bg-mockup {
+    background: #44455b;
+    max-width: 1920px;
+    border-bottom-right-radius: 130px;
+    border-bottom-left-radius: 130px;
+}
+
+.bg-mentora {
+    background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 50%, #44455b 50%, #44455b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 50%, #44455b 50%, #44455b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 80%, #44455b 50%, #44455b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#44455b',GradientType=0 ); /* IE6-9 */
+    max-width: 1920px;
+}
+
+.img-mentora {
+    border-top-left-radius: 70px; 
+    border-top-right-radius: 70px;
+}
+
+.bg-depoimentos {
+    margin-top: -1px;
+    background: #44455b;
+    max-width: 1920px;
+    border-bottom-right-radius: 130px;
+    border-bottom-left-radius: 130px;
+}
+
+.bg-modelos {
+    overflow: hidden;
+    background: #22223a;
+    max-width: 1920px;
+    border-top-right-radius: 130px;
+    border-top-left-radius: 130px;
+}
+
+.bg-modelos-interno {
+    background: #9a8c99;
+    max-width: 1920px;
+    border-top-right-radius: 130px;
+    border-top-left-radius: 130px;
+}
+
+.bg-calda-bolo {
+    height: 97px;
+    background: url('../img/calda-bolo.webp') right center repeat-x;
+    max-width: 1920px;
+}
+
+.bg-modulos {
+    overflow: hidden;
+    background: url('../img/bg-elementos2.webp') center center repeat #22223a;
+    max-width: 1920px;
+    border-top-right-radius: 130px;
+    border-top-left-radius: 130px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .img-mentora {
+        border-top-left-radius: 70px; 
+        border-bottom-left-radius: 70px; 
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .bg-banner {
+        background: url('../img/bg-banner.webp') center top no-repeat #ffffff;
+        max-width: 1920px;
+        border-bottom-right-radius: 130px;
+        border-bottom-left-radius: 130px;
+    }
+
+    .img-mentora {
+        border-top-left-radius: 70px; 
+        border-bottom-left-radius: 70px; 
+        max-height: 450px;
+    }
+}
