@@ -1,5 +1,5 @@
 # callinebrandao-viva-da-confeitaria-pv
-Página de vendas do curso Viva da Confeira - Calline Brandão
+Página de vendas do curso Viva da Confeitaria - Calline Brandão
 
 Links: <a href="https://callinebrandao.com.br/viva-da-confeitaria/" target="_Blank">Production</a> | <a href="https://guyddogl.github.io/callinebrandao-viva-da-confeitaria-pv/" target="_Blank">Alternative</a>
 <hr/>
