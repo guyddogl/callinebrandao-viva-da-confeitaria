@@ -584,9 +584,21 @@
 				<div class="row justify-content-center">
 					<div id="valores" class="col-12 col-lg-8 mt-5 mb-5">
 						<img src='../assets/img/oferta197.webp' class='img-fluid mx-auto d-block'>
-						<center>
+						<!-- <center>
 							<a id="checkout" href="https://pay.herospark.com/curso-de-confeitaria-por-calline-brandao-48524" class="btn btn-lg mt-3 mb-5 shadow-sm" style="background: #62a655; color: #ffffff; font-weight: 600; border-radius: 0px !important; font-size: 1.2em;">SIM! QUERO GARANTIR MEU DESCONTO AGORA!</a>
-						</center>
+						</center> -->
+						<!-- HOTMART - Upsell Widget -->
+						<div id="box_hotmart"></div>
+						<script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
+						<script>
+						opts = {
+						key: 'USL-72909-198178-d937c18cd856b56cf6fa8ffa9a653413',
+						width: '650' ,
+						height: '420'
+						};
+						Upsell.Widget.show(opts);
+						</script>
+						<!-- HOTMART - Upsell Widget [end] -->
 					</div>
 				</div>
 			</section>
